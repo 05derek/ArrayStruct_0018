@@ -1,4 +1,16 @@
 
+#include <iostream>
+using namespace std;
+
+//mendeklarasikan aray tanpa ukuran, wajib diberi nilai awal
+int nilai[]={1,2,3};
+
+//mendeklarasikan array dengan ukuran dan diberi nilai awal
+string nama[5]={"ben", "agus", "fara", "ama", "akila"};
+
+//mendeklarasikan array dengan ukuran dan tanpa nilai awal
+float score[5];
+
 int main(){
         cout << "Nama pada index 2 adalah " << nama[2] << endl;
         //memberi nilai pada elemen array per index
